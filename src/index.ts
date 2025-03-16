@@ -4,7 +4,7 @@ import 'reflect-metadata';
 import * as http from "http";
 
 import express, { json, urlencoded,  Request, Response } from "express";
-import cookieSession = require("cookie-session");
+import cookieSession from "cookie-session";
 import cors from "cors";
 import {envConfig} from "@/config/env.config";
 import {AppDataSource} from "@/database/config";
