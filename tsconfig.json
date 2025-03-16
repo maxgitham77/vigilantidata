@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
+    "module": "CommonJS",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "baseUrl": ".",
